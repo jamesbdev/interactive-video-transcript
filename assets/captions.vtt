@@ -1,0 +1,169 @@
+WEBVTT
+
+1
+00:00:00.002 --> 00:00:03.157
+What's up, my name is Dustin, and
+I'm a developer here at Treehouse.
+
+2
+00:00:03.157 --> 00:00:07.822
+Today, I wanna take you through using the
+JavaScript array method known as includes.
+
+3
+00:00:07.822 --> 00:00:12.212
+As the name suggests, this method checks
+if an array includes a specific value
+
+4
+00:00:12.212 --> 00:00:14.808
+and returns true or false respectively.
+
+5
+00:00:14.808 --> 00:00:17.339
+Let's hop into some code and
+see how this works.
+
+6
+00:00:17.339 --> 00:00:19.412
+Make sure to check out the description or
+teacher's notes 
+
+7
+00:00:19.412 --> 00:00:21.658
+down below for related resources.
+
+8
+00:00:21.658 --> 00:00:23.918
+If you're ready, let's get into it.
+
+9
+00:00:23.918 --> 00:00:28.086
+First, let's check out the official
+MDN documentation for this method.
+
+10
+00:00:28.086 --> 00:00:29.194
+It's pretty straightforward.
+
+11
+00:00:29.194 --> 00:00:33.675
+According to MDN, the includes method
+determines whether an array includes
+
+12
+00:00:33.675 --> 00:00:38.913
+a certain value among its entries,
+returning true or false as appropriate.
+
+13
+00:00:38.913 --> 00:00:40.443
+Sounds pretty simple.
+
+14
+00:00:40.443 --> 00:00:41.813
+Let's practice it a bit.
+
+15
+00:00:41.813 --> 00:00:44.988
+I'll open up my text editor
+with an empty app.js file,
+
+16
+00:00:44.988 --> 00:00:47.212
+and I'll run this file with Node.
+
+17
+00:00:47.212 --> 00:00:50.412
+If you're unfamiliar with Node or
+don't have it installed,
+
+18
+00:00:50.412 --> 00:00:53.557
+you can run this code in your
+browser's developer console.
+
+19
+00:00:53.557 --> 00:00:57.670
+Let's set up a brand new array, I'll call
+this names and we'll throw in some names.
+
+20
+00:00:57.670 --> 00:01:08.169
+Let's write jamie, kandra, and taylor.
+
+21
+00:01:08.169 --> 00:01:11.314
+Underneath our array,
+let's write a console.log method
+
+22
+00:01:11.314 --> 00:01:17.279
+and inside of that we can write our names
+array and chain on our includes method.
+
+23
+00:01:17.279 --> 00:01:21.112
+Inside of our includes method,
+let's write the string bob.
+
+24
+00:01:21.112 --> 00:01:25.165
+If I hit save and open up our terminal and
+write node app.js,
+
+25
+00:01:25.165 --> 00:01:27.242
+you'll see we get back false.
+
+26
+00:01:27.242 --> 00:01:30.500
+And this is because bob does
+not appear in our array.
+
+27
+00:01:30.500 --> 00:01:32.825
+Let's change bob with kandra.
+
+28
+00:01:32.825 --> 00:01:36.482
+I'll hit save and
+run node app.js in my terminal again,
+
+29
+00:01:36.482 --> 00:01:38.867
+and this time we get back true.
+
+30
+00:01:38.867 --> 00:01:41.590
+This is because kandra
+appears in our array.
+
+31
+00:01:41.590 --> 00:01:45.598
+This method is really straightforward but
+can also do some complex things.
+
+32
+00:01:45.598 --> 00:01:48.876
+I'll link below a video where I
+use the includes method to create
+
+33
+00:01:48.876 --> 00:01:55.125
+a dynamic search feature for a web app.
+
+34
+00:01:55.125 --> 00:01:58.326
+And that about covers it for
+the includes JavaScript array method.
+
+35
+00:01:58.326 --> 00:02:00.806
+I hope this guide helped and
+I'll see you in the next one.
+
+36
+00:02:00.806 --> 00:02:04.425
+Until then, have fun and happy coding.
+
