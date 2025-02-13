@@ -24,7 +24,6 @@ const colorCaption = (timestamp) => {
 
 //add event listener to video to check when the time is changing
 video.addEventListener("timeupdate", (event) => {
-   // console.log(video.currentTime);
     colorCaption(video.currentTime);
 
 })
