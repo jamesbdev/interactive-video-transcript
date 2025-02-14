@@ -7,10 +7,17 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
 video {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     display: block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 div#controls {
@@ -22,9 +29,13 @@ div#controls {
 
 @media (min-width: 990px) {
     p {
-        line-height: 1.5rem;
+    
         width: 50%;
         margin: 0 auto;
+    }
+
+    video {
+        width: 50%;
     }
 }
 
@@ -32,6 +43,10 @@ div#controls {
     p {
         width: 40%;
 
+    }
+
+    video {
+        width: 40%;
     }
 }
 
